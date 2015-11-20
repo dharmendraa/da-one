@@ -5,7 +5,7 @@
 var daApp = angular.module('daMyApp',['ngRoute']);
 
 daApp.controller('daHeadingControl', function($scope){
-	$scope.headingTitle = "Dharmendra ahirwar";
+	$scope.headingTitle = "Dharmendra Ahirwar";
 	$scope.headingSubTitle = "Web/Front-end/UI Developer";
 });
 
