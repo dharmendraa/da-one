@@ -1,12 +1,26 @@
 /** Created By - Dharmendra Ahirwar
 	Date - 17 November 2015
-	Version - 1.0.0.0
+	Version - 1.0.0.1
 */
 var daApp = angular.module('daMyApp',['ngRoute']);
 
-daApp.controller('daHeadingControl', function($scope){
-	$scope.headingTitle = "Dharmendra Ahirwar";
-	$scope.headingSubTitle = "Web/Front-end/UI Developer";
+daApp.service('CallService', function(){
+    this.headingTitle = function(text) {
+       return text;
+    }
+ });
+
+daApp.factory('CallFactory', function(){
+    return {
+        headingSubTitle: function(text){
+            return text;
+        }
+    }
+});
+
+daApp.controller('daHeadingControl', function($scope, CallService, CallFactory){
+	$scope.headingTitle = CallService.headingTitle("Dharmendra Ahirwar");
+	$scope.headingSubTitle = CallFactory.headingSubTitle("Web/Front-end/UI Developer");   
 });
 
 daApp.controller('daNavControl',function($scope){
