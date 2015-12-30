@@ -28,7 +28,7 @@ daApp.controller('daNavControl',function($scope){
 	{navText:'About Me', navLink:'#about'},
 	{navText:'Portfolio', navLink:'#/portfolio'},
 	{navText:'Resume', navLink:'#/resume'},
-	{navText:'Skill', navLink:'#/skills'},
+	{navText:'Skills', navLink:'#/skills'},
 	{navText:'Education', navLink:'#/education'},
 	{navText:'Contact', navLink:'#/contact'}];
 	
