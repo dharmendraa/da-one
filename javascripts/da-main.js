@@ -46,7 +46,7 @@ daApp.controller('daFooter',function($scope){
 });
 
 daApp.controller('daSkills', function($scope){
-	$scope.skills = ['HTML 4/5','CSS 2/3','JavaScript','AJAX','jQuery','AngularJS', 'Node.js','AlloyUI','jqGrid','JSON','SASS','Bootstrap','Responsive Web Design','Cross Browser Compatibility','Liferay UI','PHP','Drupal','MySQL','Manual Testing','SVN','JIRA','Bitbucket','GitHub','Adobe Photoshop','Dreamweaver','E-commerce'];
+	$scope.skills = ['HTML 4/5','CSS 2/3','JavaScript','AJAX','jQuery','AngularJS', 'Node.js','AlloyUI','jqGrid','Gulp','Gherkin','CucumberJS','JSON','SASS','Bootstrap','Responsive Web Design','Cross Browser Compatibility','Liferay UI','PHP','MySQL','Manual Testing','SVN','JIRA','Bitbucket','GitHub','Adobe Photoshop','Dreamweaver','E-commerce'];
 });
 
 daApp.controller('daResumeControl',function($scope){
