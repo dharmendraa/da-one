@@ -42,7 +42,6 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #fefefe;
   font-size: 18px;
   font-family: Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -267,7 +266,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: url(../images/goldBack.png) repeat left top;
 }
 
 .main_content {
