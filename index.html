@@ -4,7 +4,7 @@
 	<meta charset='utf-8'>
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 	<meta name="description" content="Da-one : Portfolio">
-	<title>Dharmendra ahirwar</title>
+	<title>Dharmendra Ahirwar</title>
 
 	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/da-stylesheet.css">
 
@@ -17,32 +17,32 @@
   <body ng-app="daMyApp">
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer" >
+    <div id="header_wrap">
 				<a id="backToTop" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>
         <header class="inner">
           <!--a href="https://github.com/dharmendraa/da-one">View on GitHub</a-->
-			<div ng-controller="daHeadingControl">
+			<div ng-controller="daHeadingControl" class=" padd_top_20 padd_right_10 padd_left_10">
 				<h1 id="project_title">{{headingTitle}}</h1>
-				<h2 id="project_tagline">{{headingSubTitle}}</h2>
+				<h3 id="project_tagline">{{headingSubTitle}}</h3>
 			</div>
 
-            <section ng-controller="daNavControl" class="navSection">
+            <section ng-controller="daNavControl" class="navSection padd_right_10 padd_left_10">
 				<a ng-repeat="nav in navData" ng-href="{{nav.navLink}}">{{nav.navText}}</a>
             </section>
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
+    <div id="main_content_wrap">
       <section id="main_content" class="inner main_content">
-		<div ng-view></div>	
+		<div ng-view class="padd_right_10 padd_left_10"></div>
       </section>
     </div>
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer" ng-controller="daFooter">
+    <div id="footer_wrap" ng-controller="daFooter">
       <footer class="inner">
-        <p class="copyright">{{copyrightText}} <a href="{{copyrightLink}}">{{copyrightLinkText}}</a></p>
+        <p class="copyright padd_right_10 padd_left_10">{{copyrightText}} <a href="{{copyrightLink}}">{{copyrightLinkText}}</a></p>
         <!--p>{{PublishedText}} <a href="PublishedLink">{{PublishedLinkText}}</a></p-->
       </footer>
     </div>

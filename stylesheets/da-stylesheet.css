@@ -10,7 +10,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, footer, header,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -22,17 +22,12 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, menu, nav, section {
   display: block;
 }
 
-ol, ul {
+ul {
   list-style: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 /*******************************************************************************
@@ -55,10 +50,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
 }
 
-h1 { font-size: 34px; }
+h1 { font-size: 36px; }
 h2 { font-size: 32px; }
-h3 { font-size: 24px; }
-h4 { font-size: 28px; }
+h3 { font-size: 26px; }
+h4 { font-size: 22px; }
 h5 { font-size: 18px; }
 h6 { font-size: 14px; }
 
@@ -101,9 +96,8 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 739px;
+  width: 300px;
   padding: 5px;
-  margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
 
   box-shadow: 0 0 5px #ebebeb;
@@ -171,49 +165,12 @@ ul {
   padding-left: 20px;
 }
 
-ol {
-  list-style-position: inside;
-  list-style: decimal;
-  padding-left: 20px;
-}
-
-dl dt {
-  font-weight: bold;
-}
-
-dl dd {
-  padding-left: 20px;
-  font-style: italic;
-}
-
-dl p {
-  padding-left: 20px;
-  font-style: italic;
-}
 
 hr {
   height: 1px;
   margin-bottom: 5px;
   border: none;
-  background: url('../images/bg_hr1.png') repeat-x center;
 }
-
-table {
-  margin-bottom: 20px;
-  text-align: left;
- }
-
-th {
-  padding: 10px;
-  background: #373737;
-  color: #fff;
- }
-
-td {
-  padding: 10px;
-  border-top: 2px solid #c1c1c1;
-vertical-align: top;
- }
 
 form {
   background: #f2f2f2;
@@ -223,15 +180,9 @@ form {
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
-
-.outer {
-  width: 100%;
-}
-
 .inner {
   position: relative;
   max-width: 720px;
-  padding: 20px 10px;
   margin: 0 auto;
 }
 
@@ -244,25 +195,17 @@ Full-Width Styles
   background: linear-gradient(top, #DAA520, #FFD700);
 }
 
-#header_wrap .inner {
-  padding: 20px 10px 0px 10px;
-}
-
 #project_title {
   margin: 0;
   color: #FFF8DC;
-  font-size: 42px;
-  font-weight: 700;
   text-shadow: 2px 1px #463E3F;
 }
 
 #project_tagline {
   color: #FFF8DC;
-  font-size: 24px;
-  font-weight: bold;
   background: none;
   text-shadow: 2px 1px #463E3F;
-    margin-top: 0;
+  margin-top: 0;
 }
 
 #main_content_wrap {
@@ -278,63 +221,51 @@ Full-Width Styles
   background: #DAA520;
 }
 
+.portfolioContainer{}
+.portfolioContainer .floatDiv{
+  width: 48%;
+  float: left;
+  margin-left: 2%;
+  padding-bottom: 10px;
+}
+
 
 /*** Resposive Styles ***/
 
 @media screen and (max-width: 480px) {
-  body {
-    font-size:14px;
-  }
-
-  #downloads {
-    display: none;
-  }
-
+  body { font-size:14px; }
+  #project_title { font-size: 32px; }
+  #downloads { display: none; }
   .inner {
     min-width: 320px;
     max-width: 480px;
   }
-	
-	.navSection a {
-		width:70%;
-		display: block;
-		text-align: left;
-	}
-
-  #project_title {
-  font-size: 32px;
+  .navSection a {
+      display: block;
+      text-align: left;
   }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 21px;
-  }
-
-  h4 {
-    font-size: 18px;
-  }
-
-  h5 {
-    font-size: 14px;
-  }
-
-  h6 {
-    font-size: 12px;
-  }
-
+  h1 { font-size: 32px; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 22px; }
+  h4 { font-size: 18px; }
+  h5 { font-size: 14px; }
+  h6 { font-size: 12px; }
   code, pre {
     min-width: 320px;
     max-width: 480px;
     font-size: 11px;
   }
 
+  .portfolioContainer .floatDiv{
+    width: 98%;
+  }
+
+  img {
+    position: relative;
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 0;
+  }
 }
 
 /*** Pgae Helper Style ***/
@@ -342,7 +273,6 @@ Full-Width Styles
 	text-align: right;
 	margin: 20px 0 -5px 0;
 }
-
 .navSection a{
 	background: #DAA520;
 	padding: 5px 15px;
@@ -351,23 +281,40 @@ Full-Width Styles
 	color: #463E3F;
 	border: 2px solid #FFD700;
 }
-
 .navSection a:hover{
 	background: #DAA520;
     color: #FFFFFF;
     border: 2px solid #463E3F;
 }
-	
-	.skillset span{
+.skillset span{
 	background: #D1D0CE;
 	border: 1px solid #2B3856;
-	padding: 5px 10px;
+	padding: 3px 10px;
 	margin: 10px 10px 0 0;
 	display: inline-block;
 	border-radius: 5px;
-}
 
-.toTop {
-	text-align: right;
-	margin: 0;
+  background: -moz-linear-gradient(top, #D1D0CE, #fffd75);
+  background: -webkit-linear-gradient(top, #D1D0CE, #fffd75);
+  background: -ms-linear-gradient(top, #D1D0CE, #fffd75);
+  background: -o-linear-gradient(top, #D1D0CE, #fffd75);
+  background: linear-gradient(top, #D1D0CE, #fffd75);
 }
+.padd_top_5{ padding-top: 5px;}
+.padd_left_5{ padding-left: 5px;}
+.padd_bot_5{ padding-bottom: 5px;}
+.padd_right_5{ padding-right: 5px;}
+.padd_top_10{ padding-top: 10px;}
+.padd_left_10{ padding-left: 10px;}
+.padd_bot_10{ padding-bottom: 10px;}
+.padd_right_10{ padding-right: 10px;}
+.padd_top_15{ padding-top: 15px;}
+.padd_left_15{ padding-left: 15px;}
+.padd_bot_15{ padding-bottom: 15px;}
+.padd_right_15{ padding-right: 15px;}
+.padd_top_20{ padding-top: 20px;}
+.padd_left_20{ padding-left: 20px;}
+.padd_bot_20{ padding-bottom: 20px;}
+.padd_right_20{ padding-right: 20px;}
+.clear{ clear: both;}
+.divider{ border-top: 2px solid #c1c1c1;}
