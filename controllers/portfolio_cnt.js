@@ -3,6 +3,16 @@ daApp.controller('portfolioCnt', function($scope){
     
     var portfolioData = [
     {
+        "title": "Capital One Financial Corporation",
+        "img": "noImg.png",
+        "pdata": [
+            {
+                "project": "COAF BRO Smart Data Analysts",
+                "url": "No URL available as it was an intranet project."
+            }
+        ]
+    },
+    {
         "title": "Sabre Airline Solutions",
         "img": "noImg.png",
         "pdata": [
