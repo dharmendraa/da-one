@@ -1,0 +1,31 @@
+var resData = {
+    "project": [
+      {
+        "yearofexpfrom": "2014",
+        "yearofexpto": "Present",
+        "designation": "Sr. UI Developer",
+        "clientName": "AON Hewitt",
+        "place": "Illinois",
+        "role": "",
+        "uitech": "HTML 5, CSS2/3, JavaScript, AJAX, Bootstrap and SASS",
+        "jslib": "AlloyUI, AngularJS, Node.js",
+        "servertech": "Java, Java Liferay Framework",
+        "othertech": "Implemented Cross-Browser Development and Page Optimization Techniques",
+        "versioncontrol": "Defect tracking/fixing using JIRA and subversion control using SVN",
+        "methodology": "Following agile software development practice programming, test driven development and scrum status meetings"
+      },
+      {
+        "yearofexpfrom": "2014",
+        "yearofexpto": "2014",
+        "designation": "Sr. UI Developer",
+        "clientName": "Liquidity Services Inc",
+        "place": "Texas",
+        "role": "Collaborate with Build Team to integrate Theme, front-end code with the backend technology and Liferay portal framework, to ensure the UX / UI is implemented",
+        "uitech": "HTML 5, CSS2/3, JavaScript, AJAX, Bootstrap and SASS",
+        "jslib": "jQuery with some other jQuery library, AngularJS",
+        "servertech": "Java, Java Liferay Framework",
+        "othertech": "Implemented Cross-Browser Development and Page Optimization Techniques",
+        "versioncontrol": "Defect tracking/fixing using JIRA and subversion control using Bitbucket and Git",
+        "methodology": "Followed agile software development methodology"
+      }
+]};

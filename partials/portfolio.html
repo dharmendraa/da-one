@@ -1,0 +1,22 @@
+<div class="panel panel-warning" ng-controller="portfolioCnt">
+    <div class="panel-heading">
+        <h4><a id="portfolio" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>{{pageHeader}}</h4>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped portfolioText">
+        <tr ng-repeat="port in portfolioData">
+            <td>
+                <h4 class="bg-info portfolioTitle">{{port.title}}</h4>
+                <ul class="list-group" ng-repeat="pData in port.pdata">
+                    <li class="list-group-item">
+                        <span><strong>Project: </strong>{{pData.project}}</span><br>
+                        <strong>URL: </strong><span ng-if="!pData.href">{{pData.url}}</span>
+                        <span ng-if="pData.href"><a ng-href="{{pData.url}}" target="_Blank">{{pData.url}}</a></span>
+                    </li>
+                </ul>		
+            </td>
+            <td><img src="images/{{port.img}}" alt="No Image" width="400" class="img-responsive"/></td>
+        </tr>
+        </table>
+    </div>
+</div>

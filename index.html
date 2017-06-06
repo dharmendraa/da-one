@@ -4,48 +4,59 @@
 	<meta charset='utf-8'>
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 	<meta name="description" content="Da-one : Portfolio">
-	<title>Dharmendra Ahirwar</title>
+	<title>Dharmendra ahirwar</title>
 
-	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/da-stylesheet.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/da-stylesheet.css">
 
-	<script src="javascripts/angular.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
-	<script src="javascripts/da-main.js"></script>
+    <script src="source/angular1.6.4/angular.min.js"></script>
+    <script src="source/angular1.6.4/angular-route.min.js"></script>
+    <script src="source/angular1.6.4/angular-sanitize.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="controllers/da-main.js"></script>
+    <script src="controllers/about_cnt.js"></script>
+    <script src="controllers/skills_cnt.js"></script>
+    <script src="controllers/contact_cnt.js"></script>
+    <script src="controllers/education_cnt.js"></script>
+    <script src="controllers/resume_cnt.js"></script>
+    <script src="controllers/portfolio_cnt.js"></script>
 	
   </head>
 
-  <body ng-app="daMyApp">
+  <body ng-app="daMyApp"> 
 
     <!-- HEADER -->
-    <div id="header_wrap">
-				<a id="backToTop" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-        <header class="inner">
-          <!--a href="https://github.com/dharmendraa/da-one">View on GitHub</a-->
-			<div ng-controller="daHeadingControl" class=" padd_top_20 padd_right_10 padd_left_10">
-				<h1 id="project_title">{{headingTitle}}</h1>
-				<h3 id="project_tagline">{{headingSubTitle}}</h3>
-			</div>
+    <nav class="navbar navbar-default header_wrap" ng-controller="daNavControl">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#/"><h2 class="marg0">{{headingTitle}} <small>{ {{headingSubTitle}} }</small></h2></a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
 
-            <section ng-controller="daNavControl" class="navSection padd_right_10 padd_left_10">
-				<a ng-repeat="nav in navData" ng-href="{{nav.navLink}}">{{nav.navText}}</a>
-            </section>
-        </header>
-    </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li ng-repeat="nav in navData"><a ng-href="#/{{nav.navLink}}">{{nav.navText}}</a></li>       
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap">
-      <section id="main_content" class="inner main_content">
-		<div ng-view class="padd_right_10 padd_left_10"></div>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" ng-controller="daFooter">
-      <footer class="inner">
-        <p class="copyright padd_right_10 padd_left_10">{{copyrightText}} <a href="{{copyrightLink}}">{{copyrightLinkText}}</a></p>
-        <!--p>{{PublishedText}} <a href="PublishedLink">{{PublishedLinkText}}</a></p-->
-      </footer>
-    </div>
+    <div class="col-md-10 col-md-offset-1">
+        <div ng-view></div>	            
+      </div>
 
   </body>
 </html>

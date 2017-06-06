@@ -1,0 +1,19 @@
+<div class="panel panel-warning" ng-controller="educationCnt">
+  <div class="panel-heading">
+      <h4><a id="resume" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>{{pageHeader}}</h4>
+    </div>
+      
+  <div class="panel-body">
+      
+
+<h4 class="label label-primary"><span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span> {{educationTitle}}</h4>
+<ul>
+    <li ng-repeat="edu in educationData">{{edu}}</li>
+</ul>
+
+<h4 class="label label-primary"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> {{achievementTitle}}</h4>
+<ul>
+	<li ng-repeat="ach in achievementData">{{ach}}</li>
+</ul>
+    </div>
+</div>
