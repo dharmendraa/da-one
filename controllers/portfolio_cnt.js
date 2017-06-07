@@ -13,7 +13,7 @@ daApp.controller('portfolioCnt', function($scope){
         ]
     },
     {
-        "title": "Sabre Airline Solutions",
+        "title": "Sabre Corporation",
         "img": "noImg.png",
         "pdata": [
             {

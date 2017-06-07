@@ -18,7 +18,7 @@ daApp.factory('CallFactory', function(){
     }
 });
 
-daApp.controller('daNavControl',function($scope, CallService, CallFactory){
+daApp.controller('daNavControl',function($scope, $location, CallService, CallFactory){
 	$scope.headingTitle = CallService.headingTitle("Dharmendra Ahirwar");
 	$scope.headingSubTitle = CallFactory.headingSubTitle("Web/Front-end/UI Developer");
     
@@ -30,7 +30,14 @@ daApp.controller('daNavControl',function($scope, CallService, CallFactory){
 	{navText:'Education', navLink:'education'},
 	{navText:'Contact', navLink:'contact'}];
 	
-	$scope.navLink = $scope.navData.navLink;
+	var path = $location.path();
+    $scope.paths = path.slice(1,20);
+    angular.forEach($scope.navData, function(item){
+        if($scope.paths == item.navLink){            angular.element(document.querySelector('#'+$scope.paths)).addClass('active');
+        }else{
+            angular.element(document.querySelector('#'+item.navLink)).removeClass('active');
+        }
+    });
 });
 
 
@@ -39,7 +46,7 @@ daApp.config(['$routeProvider', '$locationProvider', function($routeProvider,$lo
     $routeProvider.
         when('/about', {
             templateUrl: 'partials/about.html',
-            controller: 'aboutCnt'
+            controller: 'daNavControl'
         }).
         when('/resume', {
             templateUrl: 'partials/resume.html',

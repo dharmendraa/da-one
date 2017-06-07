@@ -33,6 +33,14 @@ Full-Width Styles
 .navActive {
     border-bottom: 2px solid #FF8F00;
 }
+.panel-heading {
+  background: #5D4037;
+  background: -moz-linear-gradient(bottom, #5D4037, #937a49);
+  background: -webkit-linear-gradient(bottom, #5D4037, #937a49);
+  background: -ms-linear-gradient(bottom, #5D4037, #937a49);
+  background: -o-linear-gradient(bottom, #5D4037, #937a49);
+  background: linear-gradient(bottom, #5D4037, #937a49);
+}
 .panel-body{
     font-size: 1.1em;
     background: url(../images/png_vactor_flower.png) no-repeat right bottom;
@@ -78,5 +86,6 @@ Full-Width Styles
         font-size: 0.8em;
     }
 }
-
-
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #f3c834;
+}

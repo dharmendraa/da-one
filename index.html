@@ -47,7 +47,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li ng-repeat="nav in navData"><a ng-href="#/{{nav.navLink}}">{{nav.navText}}</a></li>       
+            <li ng-repeat="nav in navData" id="{{nav.navLink}}"><a ng-href="#/{{nav.navLink}}">{{nav.navText}}</a></li>       
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
