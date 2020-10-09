@@ -1,0 +1,20 @@
+{
+  "email":"ahirwar1980@gmail.com",
+  "phone":"+91-932-4103599",
+  "address":"Kandivali",
+  "city": "Mumbai",
+  "country": "India",
+  "zipcode": "400101",
+  "social": [
+    {
+      "id": "1",
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/dharmendraahirwar"
+    },
+    {
+      "id": "2",
+      "name": "gitHub",
+      "link": "https://github.com/dharmendraa/"
+    }
+  ]
+}

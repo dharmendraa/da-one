@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Education",
+    "data": {
+        "mca": "2005: Master of Computer Applications (MCA) from Jabalpur Engineering College, Jabalpur, India.",
+        "bsc": "2001: Bachelor’s Degree in Computer Application (B.Sc.) from Govt. Autonomous Science College, Jabalpur, India."
+    }
+  }
+
+    "title": "Summary of Achievement",
+    "data" = {
+        "ach1": "Recognized and appreciated by the Project Manager for increasing the process compliance of project in Capital One.",
+        "ach2": "Recognized and appreciated by the Project Manager and QA Manager for delivering all the work within the estimated time in Sabre.",
+        "ach3": "Recognized and appreciated by the Project Manager and Scrum Master for delivering all the work within the estimated sprint time in AON.",
+        "ach4": "Recognized and appreciated by the Project Manager for living and displaying the MphasiS value of being “Collaborative” in MphasiS an HP Company.",
+        "ach5": "Recognized and appreciated by the Project Manager for increasing the process compliance of project in MphasiS an HP Company."
+    }
+  ]

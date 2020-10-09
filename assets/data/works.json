@@ -1,0 +1,90 @@
+[
+  {
+    "id": "01",
+    "name": "SEAMLESS myHomepage",
+    "client": "Schneider Electric, France",
+    "role": "UI Team Lead",
+    "durationStart": "June 2019",
+    "durationEnd": ""
+  },
+  {
+    "id": "02",
+    "name": "BNPP ISPL IND RAC",
+    "client": "BNP Paribas India Solutions Pvt. Ltd., France",
+    "role": "Lead UI Developer",
+    "durationStart": "August 2018",
+    "durationEnd": "May 2019"
+  },
+  {
+    "id": "03",
+    "name": "Panna Live",
+    "client": "Mroads, Hyderabad, India",
+    "role": "Consultant",
+    "durationStart": "Aug 2017",
+    "durationEnd": "Jun 2018 "
+  },
+  {
+    "id": "04",
+    "name": "COAF BRO Smart Data Analysts",
+    "client": "Capital One, Plano, TX",
+    "role": "Lead Developer",
+    "durationStart": "Dec 2016",
+    "durationEnd": "Jul 2017"
+  },
+  {
+    "id": "05",
+    "name": "Digital Experience Platform",
+    "client": "Sabre Corporation, Southlake, TX",
+    "role": "Sr. Software Engineer",
+    "durationStart": "Jan 2015",
+    "durationEnd": "Nov 2016"
+  },
+  {
+    "id": "06",
+    "name": "Health Medical Plan",
+    "client": "AON Hewitt, Lincolnshire, IL",
+    "role": "Lead UI Developer",
+    "durationStart": "Jul 2014",
+    "durationEnd": "Dec 2015"
+  },
+  {
+    "id": "07",
+    "name": "LSI Corporate Website",
+    "client": "Liquidity Services Inc., Frisco, TX",
+    "role": "Sr. UI Develope",
+    "durationStart": "Feb 2014",
+    "durationEnd": "Jun 2014"
+  },
+  {
+    "id": "08",
+    "name": "Liquidity Risk Infrastructure",
+    "client": "J. P. Morgan Chase, New York, NY",
+    "role": "Sr. Web Developer",
+    "durationStart": "Aug 2012",
+    "durationEnd": "Jan 2014"
+  },
+  {
+    "id": "09",
+    "name": "AWM Content Entry",
+    "client": "J. P. Morgan Chase, Mumbai, India",
+    "role": "Sr. Web Developer",
+    "durationStart": "Jun 2010",
+    "durationEnd": "Jul 2012"
+  },
+  {
+    "id": "10",
+    "name": "Salesday",
+    "client": "Annet Technologies, Mumbai, India",
+    "role": "Sr. Software Engineer",
+    "durationStart": "Jan 2010",
+    "durationEnd": "May 2010"
+  },
+  {
+    "id": "11",
+    "name": "ExaJobs",
+    "client": "Exa India Pvt. Ltd., Mumbai, India",
+    "role": "Web Developer",
+    "durationStart": "Jun 2006",
+    "durationEnd": "Dec 2009"
+  }
+]

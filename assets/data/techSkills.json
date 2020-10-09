@@ -1,0 +1,100 @@
+[
+  {
+    "id": "01",
+    "name": "JavaScript",
+    "years": 14,
+    "experties": "80%",
+    "toComplete": "20%"
+  },
+  {
+    "id": "02",
+    "name": "Angular 2-8",
+    "years": 6,
+    "experties": "70%",
+    "toComplete": "30%"
+  },
+  {
+    "id": "03",
+    "name": "TypeScript",
+    "years": 5,
+    "experties": "60%",
+    "toComplete": "40%"
+  },
+  {
+    "id": "04",
+    "name": "NPM",
+    "years": 5,
+    "experties": "70%",
+    "toComplete": "30%"
+  },
+  {
+    "id": "05",
+    "name": "Node.js",
+    "years": 2,
+    "experties": "50%",
+    "toComplete": "50%"
+  },
+  {
+    "id": "06",
+    "name": "Express",
+    "years": 2,
+    "experties": "50%",
+    "toComplete": "50%"
+  },
+  {
+    "id": "07",
+    "name": "jQuery",
+    "years": 10,
+    "experties": "70%",
+    "toComplete": "30%"
+  },
+  {
+    "id": "08",
+    "name": "Bootstrap",
+    "years": 6,
+    "experties": "70%",
+    "toComplete": "30%"
+  },
+  {
+    "id": "09",
+    "name": "HTML",
+    "years": 14,
+    "experties": "90%",
+    "toComplete": "10%"
+  },
+  {
+    "id": "10",
+    "name": "CSS",
+    "years": 14,
+    "experties": "90%",
+    "toComplete": "10%"
+  },
+  {
+    "id": "11",
+    "name": "PHP",
+    "years": 4,
+    "experties": "40%",
+    "toComplete": "60%"
+  },
+  {
+    "id": "12",
+    "name": "Java",
+    "years": 2,
+    "experties": "30%",
+    "toComplete": "70%"
+  },
+  {
+    "id": "13",
+    "name": "Git",
+    "years": 6,
+    "experties": "80%",
+    "toComplete": "20%"
+  },
+  {
+    "id": "14",
+    "name": "JIRA",
+    "years": 8,
+    "experties": "70%",
+    "toComplete": "30%"
+  }
+]

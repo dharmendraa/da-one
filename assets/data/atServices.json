@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "icon": "bounding-box",
+    "name": "UI Team Lead",
+    "description": "Contribute to the development effort of each project by leading and working on the continuous improvement activities of design process & development."
+  },
+  {
+    "id": "2",
+    "icon": "tools",
+    "name": "UI Technical Lead",
+    "description": "Lay the foundation for an amazing engineering team. Implement best practices and coding standard."
+  },
+  {
+    "id": "3",
+    "icon": "code-square",
+    "name": "Web Development",
+    "description": "Deeply involved in development life cycle activities like design, coding, testing and production release."
+  },
+  {
+    "id": "4",
+    "icon": "award",
+    "name": "Scrum Master",
+    "description": "Helps the team embrace Agile core values, adopt and apply Agile principles, and implement Agile practices."
+  }
+]

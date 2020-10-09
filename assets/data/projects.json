@@ -1,0 +1,137 @@
+[
+  {
+    "id": "01",
+    "title": "Jun 2019 to Till now: UI Team Lead | SEAMLESS myHomepage | Schneider Electric, France",
+    "data": [
+      { "text": "Involved in the program from the beginning to gathering, analyzing, documenting & maintaining system requirements and design documents." },
+      { "text": "Developed UI architecture, implemented front-end design and consuming persistence layer using GraphQL." },
+      { "text": "Developing reusable components for the application as UIaaS in Angular and Svelte.js." },
+      { "text": "Using Bootstrap & Media Queries to create Responsive Webpages across the different size of screen." },
+      { "text": "Performing UI Unit testing using frameworks Karma/Jasmine." },
+      { "text": "Developing project using VS code editor, version control with Git and automated build & deployments using AWS Amplify, Lambda." },
+      { "text": "Sincerely involved in Code Review and documentations." },
+      { "text": "Involved in the Performance Tuning of the Application on client side." },
+      { "text": "Facilitating daily SCRUM meetings, sprint planning, sprint review, and sprint retrospective." }
+    ]
+  },
+  {
+    "id": "02",
+    "title": "Aug 2018 to May 2019: Lead UI Developer | BNPP ISPL IND RAC | BNP Paribas India Solutions Pvt. Ltd., France",
+    "data": [
+      { "text": "Participate in requirements gathering, design & prototyping, technical (TRD) requirement & design (HLD, LLD) document creation." },
+      { "text": "Developed application using Angular, consumed RESTful APIs with help of Java & Spring." },
+      { "text": "Integrated Camunda BPM based on controlled client user access and roles." },
+      { "text": "Created design and development of the web pages from mock-ups using Bootstrap and SASS." },
+      { "text": "Performed UI Unit testing using Karma & Jasmin, and integration testing." },
+      { "text": "Lead technical development of more junior developers and accomplished task management." },
+      { "text": "Participated in Code Review and documentations." },
+      { "text": "Followed Scrum Agile methodology for development of the application." }
+    ]
+  },
+  {
+    "id": "03",
+    "title": "Aug 2017 to Jun 2018: Consultant | Panna Live | Mroads, Hyderabad, India",
+    "data": [
+      { "text": "Participate in requirements gathering, design & prototyping, technical (TRD) requirement & design (HLD, LLD) document creation." },
+      { "text": "Developed application using Angular, consumed RESTful APIs with help of Java." },
+      { "text": "Created design and development of the web pages from mock-ups using Bootstrap and SASS." },
+      { "text": "Lead technical development of more junior developers and accomplished task management." },
+      { "text": "Participated in Code Review and documentations." },
+      { "text": "Followed Scrum Agile methodology for development of the application." }
+    ]
+  },
+  {
+    "id": "04",
+    "title": "Dec 2016 to Jul 2017: Lead Developer | COAF BRO Smart Data Analysts | Capital One, Plano, TX",
+    "data": [
+      {"text": "Web application development for the user with optimal viewing and interactive experience to work on financial business data."},
+      {"text": "Front-end web development: HTML 5, CSS2/3, JavaScript, AngularJS, Node.js, jQuery, AJAX, Bootstrap and SASS"},
+      {"text": "Back-end web development: Java, Maven, Eclipse"},
+      {"text": "Using Angular ui-grid library to display business data on the browser"},
+      {"text": "Creating Pivot Table to display all combination data using pivot library.  "},
+      {"text": "Using D3/C3 Chart Library for the charts"},
+      {"text": "Consuming/Developing RESTful API’s which developed and maintained using Swagger framework."},
+      {"text": "Using tools like Git, JIRA for version control and bug tracking."},
+      {"text": "Following agile software development methodology or more precisely Scrum, for time tracking, to understand the critical deliverables, and for status updates in deliverables."}
+    ]
+  },
+  {
+    "id": "05",
+    "title": "Jan 2016 to Nov 2016: Sr. Software Engineer | Digital Experience Platform | Sabre Corporation, Southlake, TX",
+    "data": [
+      {"text": "Front-end web development: HTML 5, CSS2/3, JavaScript, AngularJS, Node.js, jQuery, AJAX, Bootstrap and SASS"},
+      {"text": "Back-end web development: Java, Maven, Eclipse"},
+      {"text": "Mentoring the UI team members (contract as well as fulltime staff); providing technical expertise for implementing better solution, involved in Code reviews"},
+      {"text": "Collaboration with UX, design, and stakeholders"},
+      {"text": "This application is design to run on amazon webserver cloud environments AWS"},
+      {"text": "Worked on multiple components for flight booking (B2C and MYB path) using AngularJS"},
+      {"text": "Implemented Cross-Browser Development and Page Optimization Techniques"},
+      {"text": "Defect tracking/fixing using JIRA and subversion control using Git"},
+      {"text": "Followed agile software development methodology or more precisely Scrum, for time tracking, to understand the critical deliverables, and for status updates in deliverables."}
+    ]
+  },
+  {
+    "id": "06",
+    "title": "Jul 2014 to Dec 2015: Lead UI Developer | Health Medical Plan | AON Hewitt, Lincolnshire, IL",
+    "data": [
+      {"text": "Front-end web development: HTML 5, CSS2/3, JavaScript, AJAX, Bootstrap and SASS"},
+      {"text": "JS lib’s/frameworks: AlloyUI, AngularJS, Node.js"},
+      {"text": "Back-end web development: Java, Java Liferay Framework"},
+      {"text": "Collaboration with UX, design, and stakeholders"},
+      {"text": "Implemented Cross-Browser Development and Page Optimization Techniques"},
+      {"text": "Defect tracking/fixing using JIRA and subversion control using SVN"},
+      {"text": "Following agile software development practice programming, test driven development and scrum status meetings"}
+    ]
+  },
+  {
+    "id": "07",
+    "title": "Aug 2012 to Jan 2014: Sr. Web Developer | Liquidity Risk Infrastructure | Liquidity Services Inc, Texas",
+    "data": [
+      {"text": "Front-end web development: HTML 5, CSS2/3, JavaScript, jQuery, AJAX"},
+      {"text": "JS lib’s/frameworks: jQuery with some other jQuery library, AngularJS"},
+      {"text": "Back-end web development: Java, Java Liferay Framework"},
+      {"text": "Collaborate with Build Team to integrate Theme, front-end code with the backend technology and Liferay portal framework, to ensure the UX / UI is implemented"},
+      {"text": "Defect tracking/fixing using JIRA and subversion control using Bitbucket and Git"},
+      {"text": "Followed agile software development methodology"}
+    ]
+  },
+  {
+    "id": "08",
+    "title": "June 2010 to Jul 2012: Sr. Web Developer | AWM Content Entry | J. P. Morgan Chase, New York and India",
+    "data": [
+      {"text": "Front-end web development: HTML 4/5, CSS2/3, JavaScript, jQuery, Bootstrap, AJAX"},
+      {"text": "JS lib’s/frameworks: jQuery with some other jQuery library, jqGrid"},
+      {"text": "Back-end web development: Java, Java Liferay Framework, Fatwire framework, SmartClient framework"},
+      {"text": "Collaborate with the backend technology to ensure the UX / UI is implemented"},
+      {"text": "Defect tracking/fixing using JIRA and subversion control using Bitbucket and Git"},
+      {"text": "Followed agile software development methodology"},
+      {"text": "UI Team Lead and Task Management"}
+    ]
+  },
+  {
+    "id": "09",
+    "title": "Jan 2010 to May 2010: Sr. Software Engineer | Salesday | Annet Technologies, India",
+    "data": [
+      {"text": "Front-end web development: PHP, MySQL, HTML, CSS, JavaScript, AJAX"},
+      {"text": "JS lib’s/frameworks: jQuery"},
+      {"text": "Analysis, develop and troubleshoot complex PHP/MYSQL code"},
+      {"text": "Collaboration with UX, design, and stakeholders"},
+      {"text": "Applied JQuery scripts for basic animation and end user screen customization purposes"},
+      {"text": "Responsible for creating the screens with table-less designs meeting W3C standards"},
+      {"text": "Code Version Control and Subversion using SVN"}
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Jun 2006 to Dec 2009: Web Developer | ExaJobs | Exa India Pvt. Ltd., India",
+    "data": [
+      {"text": "Front-end web development: PHP, MySQL, HTML, CSS, JavaScript, AJAX"},
+      {"text": "JS lib’s/frameworks: jQuery"},
+      {"text": "Analysis, develop and troubleshoot complex PHP/MYSQL code"},
+      {"text": "Collaboration with UX, design, and stakeholders"},
+      {"text": "Applied JQuery scripts for basic animation and end user screen customization purposes"},
+      {"text": "Responsible for creating the screens with table-less designs meeting W3C standards"},
+      {"text": "Code Version Control and Subversion using SVN"}
+    ]
+  }
+]

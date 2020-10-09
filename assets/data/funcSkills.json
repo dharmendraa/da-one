@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Team Building and Leadership",
+    "years": 7,
+    "experties": "80%",
+    "toComplete": "20%"
+  },
+  {
+    "id": "2",
+    "name": "Stakeholder Relations",
+    "years": 6,
+    "experties": "60%",
+    "toComplete": "40%"
+  },
+  {
+    "id": "3",
+    "name": "Requirements Gathering ",
+    "years": 6,
+    "experties": "80%",
+    "toComplete": "20%"
+  },
+  {
+    "id": "4",
+    "name": "Presentations",
+    "years": 6,
+    "experties": "70%",
+    "toComplete": "30%"
+  },
+  {
+    "id": "5",
+    "name": "Design & Prototyping",
+    "years": 10,
+    "experties": "80%",
+    "toComplete": "20%"
+  },
+  {
+    "id": "6",
+    "name": "Technical Documents Creation",
+    "years": 7,
+    "experties": "70%",
+    "toComplete": "30%"
+  }
+]
